@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "590462945213",
+    "project_id": "ud-logistic",
+    "storage_bucket": "ud-logistic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590462945213:android:f8ea7db4670d4a8320f4d4",
+        "android_client_info": {
+          "package_name": "com.example.udlogistic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590462945213-1idp5b44eungi378iairna4o3p7va4g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.udlogistic",
+            "certificate_hash": "34f2cf5abe36d91b6543eff2b8513b95d24c6c45"
+          }
+        },
+        {
+          "client_id": "590462945213-q1sdqd8pmasvef141341dt23isqap1s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAANuIykE_6RsJKiFcQgNupvAoX9O78GzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590462945213-q1sdqd8pmasvef141341dt23isqap1s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

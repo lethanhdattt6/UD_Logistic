@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical">
+                <SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#CDFFFFFF"
+                    android:queryHint="Tìm Kiếm..."
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#00BCD4"/>
+            </LinearLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="644dp"
+                android:layout_margin="8dp"
+                android:stretchColumns="1,2,3,4">
+
+                <TableRow android:background="#2966A6">
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="STT"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtHoTen"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Khách Hàng"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Số ĐT"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Thao tác"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+                </TableRow>
+                <ListView
+                    android:id="@+id/lvDanhSachKhachHang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="50dp"
+                    />
+            </TableLayout>
+        </LinearLayout>
+    <Button
+        android:backgroundTint="#3388e4"
+        android:id="@+id/btnThemKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:text="Thêm Khách Hàng"
+        android:textAllCaps="false" />
+</RelativeLayout>
+</FrameLayout>
